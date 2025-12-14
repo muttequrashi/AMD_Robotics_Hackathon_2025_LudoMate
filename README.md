@@ -14,9 +14,9 @@ LudoMate Remote is a telepresence robotics system that enables families separate
 
 Our solution combines AI-powered autonomous dice manipulation (pick, shake, throw) with an intuitive web-based remote control interface featuring multi-camera live streaming and joystick controls, making physical board gaming accessible from anywhere in the world.
 
-![LudoMate System](mission/images/system_overview.jpg)
+![LudoMate System](assets/ludomate.png)
 
-[🎥 **Watch Our Demo Video**](mission/videos/ludomate_demo.mp4)
+![🎥 **Watch Our Demo Video**](assets/demo.gif)
 
 ---
 
