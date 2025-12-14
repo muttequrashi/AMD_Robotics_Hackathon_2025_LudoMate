@@ -17,6 +17,9 @@ Our solution combines AI-powered autonomous dice manipulation (pick, shake, thro
 ![LudoMate System](assets/ludomate.png)
 
 ![🎥 **Watch Our Demo Video**](assets/demo.gif)
+![🎥 **Watch Our Demo Video**](assets/demo1.gif)
+![🎥 **Watch Our Demo Video**](assets/demo2.gif)
+![🎥 **Watch Our Demo Video**](assets/demo3.gif)
 
 ---
 
@@ -816,8 +819,9 @@ def move_to_position_smooth(target, duration=1.0):
 **Datasets:**
 - [mutterehman/ludomate-dice-rolling](https://huggingface.co/datasets/mutterehman/ludomate-dice-rolling) - ACT training data (40 episodes, single camera)
 - [mutterehman/dice-rolling-v2](https://huggingface.co/datasets/mutterehman/dice-rolling-v2) - SmolVLA training data (50 episodes, 3 cameras)
-- [mutterehman/dice-rolling-v3](https://huggingface.co/datasets/mutterehman/dice-rolling-v3) - Extended validation set
+- [mutterehman/dice-rolling-v3](https://huggingface.co/datasets/mutterehman/dice-rolling-v3) - For Detection of no. on dice
 
+- [Dice Identification Dataset](https://app.roboflow.com/new-workspace-h4khc/6-sided-dice-jaju8/models) - Extended validation set
 **Models:**
 - [mutterehman/dice-rolling-v1](https://huggingface.co/mutterehman/dice-rolling-v1) - ACT policy (43M params)
 - [mutterehman/smolvla50](https://huggingface.co/mutterehman/smolvla50) - SmolVLA v1 (3.1B params)
@@ -828,15 +832,6 @@ def move_to_position_smooth(target, duration=1.0):
 - [ACT Training Run](https://wandb.ai/mutte/lerobot/runs/dice_roll_act) - Loss curves, gradients, samples
 - [SmolVLA Training Run](https://wandb.ai/mutte/lerobot/runs/dice_roll_smolvla) - Multi-modal training dynamics
 
-### 📝 **Documentation:**
-- [Technical Blog Post](mission/docs/BLOG.md) - Deep dive into system architecture and design decisions
-- [Setup Guide](mission/docs/SETUP.md) - Installation, configuration, and deployment
-- [User Manual](mission/docs/USER_GUIDE.md) - How to play games remotely, tips and tricks
-- [API Reference](mission/docs/API.md) - Complete REST API documentation
-
-### 🌐 **Live Demo:**
-- Demo server (during hackathon): `http://ludomate-demo.local:5000`
-- Demo credentials: [Available on request]
 
 ---
 
