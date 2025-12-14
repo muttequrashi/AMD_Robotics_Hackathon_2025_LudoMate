@@ -1,0 +1,50 @@
+{
+  "os":  "Linux-6.1.0-39-amd64-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-12-14T08:51:38.172284Z",
+  "args":  [
+    "--policy.path=lerobot/smolvla_base",
+    "--dataset.repo_id=mutterehman/dice-rolling-v3",
+    "--batch_size=16",
+    "--steps=20000",
+    "--output_dir=outputs/train/smolvla50",
+    "--job_name=smolvla_training_50",
+    "--policy.device=cuda",
+    "--wandb.enable=true",
+    "--policy.repo_id=mutterehman/nsmolvla",
+    "--rename_map={\"observation.images.top\": \"observation.images.camera1\", \"observation.images.side\": \"observation.images.camera2\", \"observation.images.wrist\": \"observation.images.camera3\"}"
+  ],
+  "program":  "/opt/venv/bin/lerobot-train",
+  "root":  "outputs/train/smolvla50",
+  "host":  "robotics-jupyter-launcher-2940",
+  "executable":  "/opt/venv/bin/python",
+  "cpu_count":  160,
+  "cpu_count_logical":  160,
+  "gpu":  "AMD Instinct MI300X VF",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "2162185003008",
+      "used":  "832126779392"
+    }
+  },
+  "memory":  {
+    "total":  "2029207171072"
+  },
+  "gpu_amd":  [
+    {
+      "id":  "0",
+      "uniqueId":  "0x3d0482cf6cf42015",
+      "vbiosVersion":  "113-M3000100-103",
+      "performanceLevel":  "auto",
+      "maxPower":  "750.0",
+      "series":  "AMD Instinct MI300X VF",
+      "model":  "0x74b5",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "M3000100",
+      "sclkRange":  "500Mhz - 2100Mhz",
+      "mclkRange":  "900Mhz - 1300Mhz"
+    }
+  ],
+  "writerId":  "7cc50qj2pjcdrqbikrg0xujef4kambcx"
+}
